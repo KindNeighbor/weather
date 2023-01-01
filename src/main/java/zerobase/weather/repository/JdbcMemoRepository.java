@@ -9,7 +9,7 @@ import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
 import zerobase.weather.domain.Memo;
 
-@Repository
+
 public class JdbcMemoRepository {
     private final JdbcTemplate jdbcTemplate;
 
